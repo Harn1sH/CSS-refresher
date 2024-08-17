@@ -1,16 +1,44 @@
-body {
-  padding: 10%;
-  font-size: 2rem;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-input,
-button {
-  font-size: inherit;
+body{
+  text-align: center;
+  margin: 0.5rem;
 }
 
-p {
-  text-align: justify;
-  text-indent: 3em;
-  line-height: 1.2em;
-  font-family: cursive;
+nav{
+  border: 2px #333 solid;
+  border-radius: 2rem;
+  margin: 0 auto 1rem;
+  font-size: 3rem;
+  line-height: 7rem;
+}
+
+h1{
+  background: gold;
+  border-radius: 2rem 2rem 0 0;
+}
+
+li{
+  border-top: #333 2px solid;
+}
+
+li a{
+  display: block;
+}
+
+li a, li a:visited{
+  color: #333;
+  text-decoration: none;
+}
+
+li a:hover, li a:focus{
+  color: whitesmoke;
+  background: #333;
+}
+
+li:last-child a{
+  border-radius: 0 0 2rem 2rem;
 }
